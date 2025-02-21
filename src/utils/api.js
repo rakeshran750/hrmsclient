@@ -1,10 +1,13 @@
 import axios from "axios";
+// const apiBaseUrl = import.meta.env.BASE_URL;
 
+// const BASE_URL = "http://localhost:5000/api"
+const BASE_URL = "https://hrms-server-2p7z.onrender.com/api"
 
 
 // Create an Axios instance
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL:BASE_URL,
   timeout: 5000, 
 });
 
